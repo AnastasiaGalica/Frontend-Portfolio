@@ -1,0 +1,28 @@
+.navbar ul li a{
+    font-size: 25pt;
+}
+.navbar ul{
+    gap: 3rem;
+}
+.fa-bars{
+    font-size: 5rem;
+}
+
+
+.welcome div:nth-child(2) img{
+    width: 30%;
+}
+.welcome h1{
+    font-size: 30pt;
+}
+.welcome p{
+    font-size: 20pt;
+}
+.btn{
+    width: 15rem;
+    font-size: 22pt;
+    height: 5rem;
+}
+.welcome div:nth-child(2) img{
+    width: 20rem;
+}

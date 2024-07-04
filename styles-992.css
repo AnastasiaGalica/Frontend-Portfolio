@@ -1,0 +1,66 @@
+.btn{
+    width: 9rem;
+    height: 2.5rem;
+    font-size: 14pt;
+}
+
+/* ********** NAVBAR ********** */
+.navbar{
+    padding: 0 8vw;
+}
+.navbar img{
+    width: 9.5rem;
+}
+.navbar ul{
+    flex-direction: row;
+    position:relative !important;
+    width: auto;
+    height: auto;
+    right: 0;
+    padding-top: 0;
+    background-color: transparent;
+    transition: 0s;
+    gap: 0;
+}
+.navbar ul li{
+    border-bottom: 1px solid rgb(197, 197, 197);
+    text-transform: none;
+}
+.navbar ul li a{
+    font-size: 13pt;
+}
+.navbar ul div, .navbar div{
+    display: none;
+}
+
+.navbar label{
+    margin-left: 3rem;
+    margin-top: 0;
+}
+
+/* ******************** */
+
+
+/* ********** HOME welcome ********** */
+.welcome{
+    flex-direction: row;
+    width: 80%; /*65rem*/
+    gap: 1rem;
+    margin-top: 3rem;
+}
+.welcome > div:nth-child(1){
+    width: 65%; /*55%*/
+}
+.welcome div:nth-child(2){
+    width: 23vw; /*20rem*/
+}
+.welcome div:nth-child(2) img{
+    width: 23vw; /*20rem*/
+}
+.welcome h1{
+    font-size: 23pt;
+}
+.welcome p{
+    font-size: 13pt;
+}
+/* ******************** */
