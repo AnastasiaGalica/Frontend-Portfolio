@@ -1,0 +1,27 @@
+.standard-btn{
+    height: 3rem;
+    padding: 0 2rem;
+    font-size: 15pt;
+}
+/* =============== HEADER =============== */
+.header .navbar ul{
+    gap: 4rem;
+}
+.header .navbar ul li{
+    font-size: 18pt;
+    font-weight: 700;
+}
+.close-menu-icon{
+    font-size: 4rem;
+}
+
+/* =============== HOME =============== */
+.home img{
+    width: 15rem;
+}
+.home h1{
+    font-size: 22pt;
+}
+.home p{
+    font-size: 15pt;
+}

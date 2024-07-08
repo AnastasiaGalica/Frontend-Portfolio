@@ -1,0 +1,88 @@
+.standard-btn{
+    height: 2.7rem;
+    padding: 0 1rem;
+    font-size: 14pt;
+}
+/* =============== HEADER =============== */
+.header{
+    padding: 0 8vw;
+}
+.header .menu-icon, .header .close-menu-icon{
+    display: none;
+}
+.header img{
+    width: 15vw;
+    margin-top: 1vw;
+}
+.header .navbar{
+    transform: translate(0%);
+    width: fit-content;
+    height: auto;
+    width: fit-content;
+    background: transparent;
+    position: unset;
+}
+.header .navbar ul{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+.header .navbar ul li{
+    text-transform: none;
+    border-bottom: 1px solid var(--white);
+    font-size: 13pt;
+    font-weight: unset !important;
+    padding: 1rem 1rem;
+    position: relative;
+    cursor: pointer; 
+}
+.header .navbar ul li a:after{
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 3px;
+    left: 50%;
+    position: absolute;
+    background: var(--teal);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+.header .navbar ul li:hover a:after{
+    width: 100%; 
+    left: 0;
+}
+.header .navbar ul li:hover a{
+    color: var(--teal);
+}
+.header .navbar ul li:hover{
+    border-bottom: 1px solid var(--teal);
+}
+
+/* =============== HOME =============== */
+.home{
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 3rem;
+    padding-top: 10vh;
+}
+.home img {
+    width: 23vw;
+}
+.home div{
+    width: 55vw;
+}
+.home h1{
+    font-size: 23pt;
+}
+.home p{
+    font-size: 13pt;
+}
+
+/* =============== ABOUT =============== */
+.about{
+    background-color: black;
+}

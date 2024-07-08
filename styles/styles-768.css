@@ -1,0 +1,24 @@
+.standard-btn{
+    height: 5rem;
+    padding: 0 3rem;
+    font-size: 17pt;
+}
+/* =============== HEADER =============== */
+.header .navbar ul li{
+    font-size: 25pt;
+    font-weight: 700;
+}
+
+/* =============== HOME =============== */
+.home img{
+    width: 15rem;
+}
+.home h1{
+    font-size: 22pt;
+}
+.home p{
+    font-size: 15pt;
+}
+.home button{
+    margin-top: 8vh;
+}
